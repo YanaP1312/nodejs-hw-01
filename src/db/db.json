@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "16ecaf7f-9dfb-4685-863c-cac58294ced6",
+    "name": "Rudolph Pacocha",
+    "phone": "1-589-768-6861 x533",
+    "email": "Jason72@yahoo.com",
+    "job": "Product Paradigm Strategist"
+  },
+  {
+    "id": "fe6ea614-4e2d-4ab0-a9d8-39933a1823bd",
+    "name": "Francis Sporer",
+    "phone": "331-697-7168 x670",
+    "email": "Alvis7@hotmail.com",
+    "job": "Direct Implementation Officer"
+  },
+  {
+    "id": "0cdcd3a9-b2f3-4194-ae45-f9ad9daf368f",
+    "name": "Vickie Quitzon",
+    "phone": "1-468-481-2090 x15462",
+    "email": "Libbie.VonRueden@yahoo.com",
+    "job": "Investor Functionality Orchestrator"
+  },
+  {
+    "id": "edfc6029-bcb6-405a-951f-2412b0787415",
+    "name": "Yolanda Okuneva",
+    "phone": "(296) 601-5962",
+    "email": "Santiago_Goldner32@yahoo.com",
+    "job": "Lead Group Administrator"
+  },
+  {
+    "id": "930dffd2-f870-4f06-b9f0-47b3cd9cd83d",
+    "name": "Alex Kohler",
+    "phone": "407-764-4520 x86672",
+    "email": "Maynard.Stanton-Boyer@hotmail.com",
+    "job": "Chief Assurance Designer"
+  }
+]

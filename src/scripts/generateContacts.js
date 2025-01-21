@@ -1,17 +1,18 @@
-import { readContacts } from '../utils/readContacts';
-import { writeContacts } from '../utils/writeContacts';
-import { createFakeContact } from '../utils/createFakeContact';
+import { readContacts } from '../utils/readContacts.js';
+import { writeContacts } from '../utils/writeContacts.js';
+import { createFakeContact } from '../utils/createFakeContact.js';
 
 const generateContacts = async (number) => {
   try {
+    const existingContacts = await readContacts();
     const newContact = Array.from({ length: number }, () =>
       createFakeContact(),
     );
-    const updatedContacts = [...readContacts, ...newContact];
+    const updatedContacts = [...existingContacts, ...newContact];
     await writeContacts(updatedContacts);
   } catch (err) {
     console.error('Error:', err);
   }
 };
 
-generateContacts(5);
+generateContacts(3);

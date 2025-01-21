@@ -8,5 +8,6 @@ export const readContacts = async () => {
     return JSON.parse(data);
   } catch (err) {
     console.error('Error reading file', err);
+    return [];
   }
 };
